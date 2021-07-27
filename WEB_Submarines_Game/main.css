@@ -1,0 +1,75 @@
+
+
+
+table {
+  font-family: arial, sans-serif;
+  border-collapse: collapse;
+  table-position: center;
+}
+
+td,
+th {
+  border: 2px solid #dddddd;
+  text-align: left;
+  padding: 20px;
+}
+
+td:hover {
+  background-color: yellow;
+}
+
+.checked-miss {
+  background-color: red;
+}
+
+.checked-hit {
+  background-color: green;
+}
+
+.hide {
+	display:none;
+}
+
+button {
+  display: block;
+  height: 10%;
+  width: 23%;
+  border: none;
+  background-color: #4CAF50;
+  color: white;
+  padding: 14px 28px;
+  font-size: 16px;
+  cursor: pointer;
+  text-align: center;
+}
+
+.whitebackground {
+  border: 2px solid #dddddd;
+  text-align: left;
+  padding: 20px;
+  background-color: white;
+}
+
+body {
+  /* The image used */
+  background-image: url("BBIMG.jpg");
+
+  /* Full height */
+  height: 100%;
+
+  /* Center and scale the image nicely */
+  background-position: center;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+counter {
+  padding: 80px;
+  text-shadow: 1px 1px 1px #202020;
+  font-family: "Lato", sans-serif;
+  font-size: 40pt;
+  border: 5px solid red;
+  color: red;
+  float: right;
+}

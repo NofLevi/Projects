@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "1043662261466",
+    "firebase_url": "https://meemorypracticeleaderboard.firebaseio.com",
+    "project_id": "meemorypracticeleaderboard",
+    "storage_bucket": "meemorypracticeleaderboard.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1043662261466:android:87c565cd58fbff214fa9e3",
+        "android_client_info": {
+          "package_name": "com.example.memorypractice"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1043662261466-605k0binnfduiac1q3mfqfj0frubbiur.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyACFrsa_17cjcmx8ihiCscYBN5mXFEe_gU"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1043662261466-605k0binnfduiac1q3mfqfj0frubbiur.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

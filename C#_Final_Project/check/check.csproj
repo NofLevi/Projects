@@ -1,0 +1,501 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{1EDBE3BD-71B0-4A72-8B98-948F746F0384}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <RootNamespace>check</RootNamespace>
+    <AssemblyName>check</AssemblyName>
+    <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+    <Deterministic>true</Deterministic>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Debug|x86'">
+    <DebugSymbols>true</DebugSymbols>
+    <OutputPath>bin\x86\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <DebugType>full</DebugType>
+    <PlatformTarget>x86</PlatformTarget>
+    <LangVersion>7.3</LangVersion>
+    <ErrorReport>prompt</ErrorReport>
+    <Prefer32Bit>true</Prefer32Bit>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Release|x86'">
+    <OutputPath>bin\x86\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <Optimize>true</Optimize>
+    <DebugType>pdbonly</DebugType>
+    <PlatformTarget>x86</PlatformTarget>
+    <LangVersion>7.3</LangVersion>
+    <ErrorReport>prompt</ErrorReport>
+    <Prefer32Bit>true</Prefer32Bit>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ApplicationIcon>
+    </ApplicationIcon>
+  </PropertyGroup>
+  <PropertyGroup>
+    <NoWin32Manifest>true</NoWin32Manifest>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="BouncyCastle.Crypto, Version=1.8.6.0, Culture=neutral, PublicKeyToken=0e99375e54769942">
+      <HintPath>..\packages\BouncyCastle.1.8.6.1\lib\BouncyCastle.Crypto.dll</HintPath>
+    </Reference>
+    <Reference Include="DevExpress.Data.v20.2, Version=20.2.4.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL">
+      <HintPath>..\packages\DevExpress.Data.20.2.4\lib\net452\DevExpress.Data.v20.2.dll</HintPath>
+    </Reference>
+    <Reference Include="itextsharp, Version=5.5.13.2, Culture=neutral, PublicKeyToken=8354ae6d2174ddca, processorArchitecture=MSIL">
+      <HintPath>..\packages\iTextSharp.5.5.13.2\lib\itextsharp.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Configuration" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Windows.Forms.DataVisualization" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Basic\UpdateWorkers.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Basic\UpdateWorkers.Designer.cs">
+      <DependentUpon>UpdateWorkers.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Basic\AddWorker.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Basic\AddWorker.Designer.cs">
+      <DependentUpon>AddWorker.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Basic\EditWorker.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Basic\EditWorker.Designer.cs">
+      <DependentUpon>EditWorker.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Basic\Stats.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Basic\Stats.Designer.cs">
+      <DependentUpon>Stats.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Basic\Login.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Basic\Login.designer.cs">
+      <DependentUpon>Login.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Basic\LogoImageHandler.cs" />
+    <Compile Include="Basic\MainMenu.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Basic\MainMenu.designer.cs">
+      <DependentUpon>MainMenu.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Basic\ChangingPasswordForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Basic\ChangingPasswordForm.designer.cs">
+      <DependentUpon>ChangingPasswordForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Basic\credentialReplacementForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Basic\credentialReplacementForm.designer.cs">
+      <DependentUpon>credentialReplacementForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="SMTP\EmailList.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="SMTP\EmailList.designer.cs">
+      <DependentUpon>EmailList.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Basic\emailSetting.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Basic\emailSetting.designer.cs">
+      <DependentUpon>emailSetting.cs</DependentUpon>
+    </Compile>
+    <Compile Include="SMTP\MultiMail.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="SMTP\MultiMail.designer.cs">
+      <DependentUpon>MultiMail.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <Compile Include="SMTP\singleEmail.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="SMTP\singleEmail.designer.cs">
+      <DependentUpon>singleEmail.cs</DependentUpon>
+    </Compile>
+    <Compile Include="SMTP\smtpForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="SMTP\smtpForm.designer.cs">
+      <DependentUpon>smtpForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="SMTP\smtpHandler.cs" />
+    <Compile Include="Table\AddProducts.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Table\AddProducts.Designer.cs">
+      <DependentUpon>AddProducts.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Table\AddColumn.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Table\AddColumn.Designer.cs">
+      <DependentUpon>AddColumn.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Table\AddUnit.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Table\AddUnit.Designer.cs">
+      <DependentUpon>AddUnit.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Table\AddTable.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Table\AddTable.Designer.cs">
+      <DependentUpon>AddTable.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Basic\Encryption.cs" />
+    <Compile Include="FirstEntry\FirstEntryForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FirstEntry\FirstEntryForm.Designer.cs">
+      <DependentUpon>FirstEntryForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Table\SellProducts.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Table\SellProducts.Designer.cs">
+      <DependentUpon>SellProducts.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Basic\AdminSettings.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Basic\AdminSettings.Designer.cs">
+      <DependentUpon>AdminSettings.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FirstEntry\SMTPSetup.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FirstEntry\SMTPSetup.Designer.cs">
+      <DependentUpon>SMTPSetup.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Basic\SQLFuncs.cs" />
+    <Compile Include="Table\EditRow.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Table\EditRow.Designer.cs">
+      <DependentUpon>EditRow.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Basic\LogsTable.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Basic\LogsTable.Designer.cs">
+      <DependentUpon>LogsTable.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Table\Table.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Table\Table.Designer.cs">
+      <DependentUpon>Table.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="Basic\AddWorker.resx">
+      <DependentUpon>AddWorker.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Basic\EditWorker.resx">
+      <DependentUpon>EditWorker.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Basic\Stats.resx">
+      <DependentUpon>Stats.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Basic\UpdateWorkers.resx">
+      <DependentUpon>UpdateWorkers.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Basic\Login.resx">
+      <DependentUpon>Login.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Basic\MainMenu.resx">
+      <DependentUpon>MainMenu.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Basic\ChangingPasswordForm.resx">
+      <DependentUpon>ChangingPasswordForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Basic\credentialReplacementForm.resx">
+      <DependentUpon>credentialReplacementForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="SMTP\EmailList.resx">
+      <DependentUpon>EmailList.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Basic\emailSetting.resx">
+      <DependentUpon>emailSetting.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="SMTP\MultiMail.resx">
+      <DependentUpon>MultiMail.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="SMTP\singleEmail.resx">
+      <DependentUpon>singleEmail.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="SMTP\smtpForm.resx">
+      <DependentUpon>smtpForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Table\AddProducts.resx">
+      <DependentUpon>AddProducts.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Table\AddColumn.resx">
+      <DependentUpon>AddColumn.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Table\AddTable.resx">
+      <DependentUpon>AddTable.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Table\AddUnit.resx">
+      <DependentUpon>AddUnit.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Table\EditRow.resx">
+      <DependentUpon>EditRow.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FirstEntry\FirstEntryForm.resx">
+      <DependentUpon>FirstEntryForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Table\SellProducts.resx">
+      <DependentUpon>SellProducts.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Basic\LogsTable.resx">
+      <DependentUpon>LogsTable.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Basic\AdminSettings.resx">
+      <DependentUpon>AdminSettings.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FirstEntry\SMTPSetup.resx">
+      <DependentUpon>SMTPSetup.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Table\Table.resx">
+      <DependentUpon>Table.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <SubType>Designer</SubType>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+    <None Include="packages.config" />
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <COMReference Include="Microsoft.Office.Core">
+      <Guid>{2DF8D04C-5BFA-101B-BDE5-00AA0044DE52}</Guid>
+      <VersionMajor>2</VersionMajor>
+      <VersionMinor>8</VersionMinor>
+      <Lcid>0</Lcid>
+      <WrapperTool>primary</WrapperTool>
+      <Isolated>False</Isolated>
+      <EmbedInteropTypes>True</EmbedInteropTypes>
+    </COMReference>
+    <COMReference Include="Microsoft.Office.Interop.Excel">
+      <Guid>{00020813-0000-0000-C000-000000000046}</Guid>
+      <VersionMajor>1</VersionMajor>
+      <VersionMinor>9</VersionMinor>
+      <Lcid>0</Lcid>
+      <WrapperTool>primary</WrapperTool>
+      <Isolated>False</Isolated>
+      <EmbedInteropTypes>True</EmbedInteropTypes>
+    </COMReference>
+    <COMReference Include="VBIDE">
+      <Guid>{0002E157-0000-0000-C000-000000000046}</Guid>
+      <VersionMajor>5</VersionMajor>
+      <VersionMinor>3</VersionMinor>
+      <Lcid>0</Lcid>
+      <WrapperTool>primary</WrapperTool>
+      <Isolated>False</Isolated>
+      <EmbedInteropTypes>True</EmbedInteropTypes>
+    </COMReference>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Image1.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Table_AddButton.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Table_RemoveButton.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\AddTable_AddColumnButton.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\AddTable_DeleteColumn.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\AdminSettings_Enter.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\AdminSettings_SendButton.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Basic_Backtologin.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Basic_ConfirmButton.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Basic_EditButton.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Basic_MainMenu.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Basic_minus.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Basic_plus.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Basic_Submit.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\CredentialReplacementForm_SendCodeButton.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Login_LoginButton.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Mail_AddAttachmentButton.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Mail_BackButton.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Mail_RemoveAttachment.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Mail_Send.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\MainMenu_AdminSettings.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\MainMenu_EmailsButton.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\MainMenu_TableButton.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\SMTPSetupManager_Confirm.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\SMTPSetupManager_SendMail.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\SMTPSetupManager_SkipSMTP.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Table_DisposeButton.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Table_ExportButton.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Table_ExposeButton.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Table_AddButton1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Table_RemoveButton1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\button_expose.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Empty.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Empty_150X721.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Empty_150X72.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\button_send-test-mail.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\button_email-list.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\button_mass-mail.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\button_send-test-mail1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\button_single-mail.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\button_smtp-setup.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\button_sell.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\button_buy.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\button_buy %281%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ChangeLogo_Button.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="SMP_icon.ico" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>

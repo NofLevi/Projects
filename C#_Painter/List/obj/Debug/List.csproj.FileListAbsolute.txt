@@ -1,0 +1,39 @@
+H:\Graphics\List\List\bin\Debug\List.exe.config
+H:\Graphics\List\List\bin\Debug\List.exe
+H:\Graphics\List\List\bin\Debug\List.pdb
+H:\Graphics\List\List\obj\Debug\List.csprojAssemblyReference.cache
+H:\Graphics\List\List\obj\Debug\List.Form1.resources
+H:\Graphics\List\List\obj\Debug\List.Properties.Resources.resources
+H:\Graphics\List\List\obj\Debug\List.csproj.GenerateResource.cache
+H:\Graphics\List\List\obj\Debug\List.csproj.CoreCompileInputs.cache
+H:\Graphics\List\List\obj\Debug\List.exe
+H:\Graphics\List\List\obj\Debug\List.pdb
+H:\Graphics\List\List\obj\Debug\List.PictureBoxForm.resources
+H:\גרפיקה ממוחשבת\List\List\obj\Debug\List.csprojAssemblyReference.cache
+H:\גרפיקה ממוחשבת\List\List\obj\Debug\List.Form1.resources
+H:\גרפיקה ממוחשבת\List\List\obj\Debug\List.Properties.Resources.resources
+H:\גרפיקה ממוחשבת\List\List\obj\Debug\List.csproj.GenerateResource.cache
+H:\גרפיקה ממוחשבת\List\List\obj\Debug\List.csproj.CoreCompileInputs.cache
+H:\גרפיקה ממוחשבת\List\List\obj\Debug\List.exe
+H:\גרפיקה ממוחשבת\List\List\obj\Debug\List.pdb
+H:\גרפיקה ממוחשבת\List\List\bin\Debug\List.exe.config
+H:\גרפיקה ממוחשבת\List\List\bin\Debug\List.exe
+H:\גרפיקה ממוחשבת\List\List\bin\Debug\List.pdb
+C:\Users\Nof\Desktop\List\List\obj\Debug\List.csprojAssemblyReference.cache
+C:\Users\Nof\Desktop\List\List\obj\Debug\List.Form1.resources
+C:\Users\Nof\Desktop\List\List\obj\Debug\List.Properties.Resources.resources
+C:\Users\Nof\Desktop\List\List\obj\Debug\List.csproj.GenerateResource.cache
+C:\Users\Nof\Desktop\List\List\obj\Debug\List.exe
+C:\Users\Nof\Desktop\List\List\obj\Debug\List.pdb
+C:\Users\Nof\Desktop\List\List\bin\Debug\List.exe.config
+C:\Users\Nof\Desktop\List\List\bin\Debug\List.exe
+C:\Users\Nof\Desktop\List\List\bin\Debug\List.pdb
+C:\Users\Nof\Desktop\List\bin\Debug\List.exe.config
+C:\Users\Nof\Desktop\List\bin\Debug\List.exe
+C:\Users\Nof\Desktop\List\bin\Debug\List.pdb
+C:\Users\Nof\Desktop\List\obj\Debug\List.csprojAssemblyReference.cache
+C:\Users\Nof\Desktop\List\obj\Debug\List.Form1.resources
+C:\Users\Nof\Desktop\List\obj\Debug\List.Properties.Resources.resources
+C:\Users\Nof\Desktop\List\obj\Debug\List.csproj.GenerateResource.cache
+C:\Users\Nof\Desktop\List\obj\Debug\List.exe
+C:\Users\Nof\Desktop\List\obj\Debug\List.pdb

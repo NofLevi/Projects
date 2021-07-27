@@ -1,0 +1,228 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".words">
+
+
+    <TextView
+        android:id="@+id/title_textview"
+        android:layout_width="300dp"
+        android:layout_height="63dp"
+        android:text="Words Memorize"
+        android:textAlignment="center"
+        android:textSize="23sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.0" />
+
+    <Button
+        android:id="@+id/InstructionButton"
+        android:layout_width="406dp"
+        android:layout_height="111dp"
+        android:onClick="openInstruction"
+        android:text="Instruction"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.482"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/PlayButton"
+        app:layout_constraintVertical_bias="0.022"
+        android:background="@drawable/buttonshape"
+        android:shadowColor="#A8A8A8"
+        android:shadowDx="0"
+        android:shadowDy="0"
+        android:shadowRadius="5"
+        android:textColor="#FFFFFF"
+        />
+
+    <Button
+        android:id="@+id/PlayButton"
+        android:layout_width="match_parent"
+        android:layout_height="101dp"
+        android:onClick="startGame"
+        android:text="Play"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.225"
+        android:background="@drawable/buttonshape"
+        android:shadowColor="#A8A8A8"
+        android:shadowDx="0"
+        android:shadowDy="0"
+        android:shadowRadius="5"
+        android:textColor="#FFFFFF"/>
+
+    <TextView
+        android:id="@+id/InstructionTextView"
+        android:layout_width="match_parent"
+        android:layout_height="300dp"
+        android:text=""
+        android:textSize="22sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/InstructionButton"
+        app:layout_constraintVertical_bias="1.0" />
+
+
+    <TextView
+        android:id="@+id/aboveinput"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Remember to put spaces between letters:"
+        android:textAlignment="center"
+        android:textSize="18sp"
+        android:visibility="gone"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.493"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/title_textview"
+        app:layout_constraintVertical_bias="0.0" />
+
+    <Spinner
+        android:id="@+id/spinner"
+        android:layout_width="166dp"
+        android:layout_height="45dp"
+        android:textAlignment="center"
+        android:layout_marginTop="65dp"
+        app:layout_constraintBottom_toTopOf="@+id/PlayButton"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.214"
+        app:layout_constraintStart_toEndOf="@+id/abovespinner"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.0" />
+
+    <TextView
+        android:id="@+id/abovespinner"
+        android:layout_width="110dp"
+        android:layout_height="43dp"
+        android:text="Minutes:"
+        android:textSize="24sp"
+        app:layout_constraintBottom_toTopOf="@+id/PlayButton"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.03"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.959" />
+
+    <Button
+        android:id="@+id/TryAgainButton"
+        android:layout_width="150dp"
+        android:layout_height="100dp"
+        android:onClick="tryAgain"
+        android:text="Try again !!!"
+        android:visibility="gone"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="@+id/InstructionTextView"
+        app:layout_constraintHorizontal_bias="0.061"
+        app:layout_constraintStart_toStartOf="@+id/InstructionTextView"
+        app:layout_constraintTop_toBottomOf="@+id/title_textview"
+        app:layout_constraintVertical_bias="0.746"
+        android:background="@drawable/buttonshape"
+        android:shadowColor="#A8A8A8"
+        android:shadowDx="0"
+        android:shadowDy="0"
+        android:shadowRadius="5"
+        android:textColor="#FFFFFF"/>
+
+    <Button
+        android:id="@+id/MenuButton"
+        android:layout_width="150dp"
+        android:layout_height="98dp"
+        android:onClick="goMenu"
+        android:text="Menu"
+        android:visibility="gone"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.625"
+        app:layout_constraintStart_toEndOf="@+id/TryAgainButton"
+        app:layout_constraintTop_toBottomOf="@+id/title_textview"
+        app:layout_constraintVertical_bias="0.743"
+        android:background="@drawable/buttonshape"
+        android:shadowColor="#A8A8A8"
+        android:shadowDx="0"
+        android:shadowDy="0"
+        android:shadowRadius="5"
+        android:textColor="#FFFFFF"/>
+
+    <Button
+        android:id="@+id/ApplyButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:onClick="applyData"
+        android:text="Apply"
+        android:visibility="gone"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/input"
+        app:layout_constraintVertical_bias="0.0"
+        android:background="@drawable/buttonshape"
+        android:shadowColor="#A8A8A8"
+        android:shadowDx="0"
+        android:shadowDy="0"
+        android:shadowRadius="5"
+        android:textColor="#FFFFFF"/>
+
+    <EditText
+        android:id="@+id/input"
+        android:layout_width="match_parent"
+        android:layout_height="150dp"
+        android:ems="10"
+        android:hint="here:"
+        android:imeOptions="actionDone"
+        android:inputType="text"
+        android:textSize="30sp"
+        android:visibility="gone"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/aboveinput"
+        app:layout_constraintVertical_bias="0.0" />
+
+
+    <TextView
+        android:id="@+id/Gametext1"
+        android:layout_width="202.5dp"
+        android:layout_height="wrap_content"
+        android:scrollbars="vertical"
+        android:text="TextView"
+        android:textAlignment="center"
+        android:textSize="30dp"
+        android:visibility="gone"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.015"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/title_textview"
+        app:layout_constraintVertical_bias="0.101" />
+
+    <TextView
+        android:id="@+id/Gametext2"
+        android:layout_width="205dp"
+        android:layout_height="wrap_content"
+        android:scrollbars="vertical"
+        android:text="TextView"
+        android:textAlignment="center"
+        android:textSize="30dp"
+        android:visibility="gone"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/title_textview"
+        app:layout_constraintVertical_bias="0.101" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

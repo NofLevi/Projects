@@ -1,0 +1,2 @@
+1. force textfield in add functions
+2. fix addfunction override

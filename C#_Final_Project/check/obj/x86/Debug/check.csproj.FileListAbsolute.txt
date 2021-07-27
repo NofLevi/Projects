@@ -1,0 +1,13 @@
+C:\Users\Nof\Desktop\check\check\bin\x86\Debug\check.exe.config
+C:\Users\Nof\Desktop\check\check\bin\x86\Debug\check.exe
+C:\Users\Nof\Desktop\check\check\bin\x86\Debug\check.pdb
+C:\Users\Nof\Desktop\check\check\obj\x86\Debug\check.csprojAssemblyReference.cache
+C:\Users\Nof\Desktop\check\check\obj\x86\Debug\check.AddCustomer.resources
+C:\Users\Nof\Desktop\check\check\obj\x86\Debug\check.AddWorker.resources
+C:\Users\Nof\Desktop\check\check\obj\x86\Debug\check.Login.resources
+C:\Users\Nof\Desktop\check\check\obj\x86\Debug\check.Form1.resources
+C:\Users\Nof\Desktop\check\check\obj\x86\Debug\check.Properties.Resources.resources
+C:\Users\Nof\Desktop\check\check\obj\x86\Debug\check.csproj.GenerateResource.cache
+C:\Users\Nof\Desktop\check\check\obj\x86\Debug\check.csproj.CoreCompileInputs.cache
+C:\Users\Nof\Desktop\check\check\obj\x86\Debug\check.exe
+C:\Users\Nof\Desktop\check\check\obj\x86\Debug\check.pdb

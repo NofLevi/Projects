@@ -1,0 +1,133 @@
+C:\Users\Nof\source\repos\check\check\obj\Debug\check.csprojAssemblyReference.cache
+C:\Users\Nof\source\repos\check\check\obj\Debug\check.Properties.Resources.resources
+C:\Users\Nof\source\repos\check\check\obj\Debug\check.csproj.GenerateResource.cache
+C:\Users\Nof\source\repos\check\check\obj\Debug\check.csproj.CoreCompileInputs.cache
+C:\Users\Nof\source\repos\check\check\bin\Debug\check.exe.config
+C:\Users\Nof\source\repos\check\check\bin\Debug\check.exe
+C:\Users\Nof\source\repos\check\check\bin\Debug\check.pdb
+C:\Users\Nof\source\repos\check\check\obj\Debug\check.exe
+C:\Users\Nof\source\repos\check\check\obj\Debug\check.pdb
+C:\Users\Nof\source\repos\check\check\obj\Debug\WindowsFormsApp1.Form1.resources
+C:\Users\Nof\source\repos\check\check\obj\Debug\check.AddWorker.resources
+C:\Users\Nof\source\repos\check\check\obj\Debug\check.AddCustomer.resources
+C:\Users\Nof\source\repos\check\check\obj\Debug\check.Login.resources
+C:\Users\Nof\Desktop\check\check\bin\Debug\check.exe.config
+C:\Users\Nof\Desktop\check\check\bin\Debug\check.exe
+C:\Users\Nof\Desktop\check\check\bin\Debug\check.pdb
+C:\Users\Nof\Desktop\check\check\obj\Debug\check.csprojAssemblyReference.cache
+C:\Users\Nof\Desktop\check\check\obj\Debug\check.Login.resources
+C:\Users\Nof\Desktop\check\check\obj\Debug\check.Properties.Resources.resources
+C:\Users\Nof\Desktop\check\check\obj\Debug\check.csproj.GenerateResource.cache
+C:\Users\Nof\Desktop\check\check\obj\Debug\check.csproj.CoreCompileInputs.cache
+C:\Users\Nof\Desktop\check\check\obj\Debug\check.exe
+C:\Users\Nof\Desktop\check\check\obj\Debug\check.pdb
+C:\Users\Nof\Desktop\check\check\obj\Debug\check.Form1.resources
+C:\Users\Nof\Desktop\check\check\obj\Debug\check.AddColumn.resources
+C:\Users\Nof\Desktop\check\check\obj\Debug\check.AddUnit.resources
+C:\Users\Nof\Desktop\check\check\obj\Debug\check.AddTable.resources
+C:\Users\Nof\Desktop\check\check\obj\Debug\check.EditRow.resources
+C:\Users\Nof\Desktop\check\check\obj\Debug\check.LogsTable.resources
+C:\Users\Nof\Desktop\check\check\obj\Debug\check.FirstEntryForm.resources
+C:\Users\Nof\Desktop\check\check\obj\Debug\check.SMTPSetup.resources
+C:\Users\Nof\Desktop\check\check\obj\Debug\check.csproj.ResolveComReference.cache
+C:\Users\Nof\Desktop\check\check\bin\Debug\BouncyCastle.Crypto.dll
+C:\Users\Nof\Desktop\check\check\bin\Debug\itextsharp.dll
+C:\Users\Nof\Desktop\check\check\bin\Debug\itextsharp.xml
+C:\Users\Nof\Desktop\check\check\obj\Debug\check.csproj.CopyComplete
+C:\Users\Nof\Desktop\check\check\bin\Debug\DevExpress.Data.v20.2.dll
+C:\Users\Nof\Desktop\check\check\bin\Debug\DevExpress.Data.v20.2.xml
+C:\Users\Nof\Desktop\check\check\obj\Debug\check.EmailList.resources
+C:\Users\Nof\Desktop\check\check\obj\Debug\check.emailSetting.resources
+C:\Users\Nof\Desktop\check\check\obj\Debug\check.MainMenu.resources
+C:\Users\Nof\Desktop\check\check\obj\Debug\check.MultiMail.resources
+C:\Users\Nof\Desktop\check\check\obj\Debug\check.singleEmail.resources
+C:\Users\Nof\Desktop\check\check\obj\Debug\check.smtpForm.resources
+C:\Users\Nof\Desktop\check\check\obj\Debug\check.SellProducts.resources
+C:\Users\Nof\Desktop\check\check\obj\Debug\check.AddProducts.resources
+C:\Users\Nof\Desktop\check\check\obj\Debug\check.UpdateWorkers.resources
+C:\Users\Nof\Desktop\check\check\obj\Debug\check.AddWorker.resources
+C:\Users\Nof\Desktop\check\check\obj\Debug\check.AdminSettings.resources
+C:\Users\Nof\Desktop\check\check\obj\Debug\check.EditWorker.resources
+C:\Users\Nof\Desktop\check\check\obj\Debug\check.Stats.resources
+C:\Users\Nof\Desktop\check\check\obj\Debug\check.ChangingPasswordForm.resources
+C:\Users\Nof\Desktop\check\check\obj\Debug\check.credentialReplacementForm.resources
+C:\Users\Nof\Desktop\temp\check\check\bin\Debug\check.exe.config
+C:\Users\Nof\Desktop\temp\check\check\bin\Debug\check.exe
+C:\Users\Nof\Desktop\temp\check\check\bin\Debug\check.pdb
+C:\Users\Nof\Desktop\temp\check\check\bin\Debug\BouncyCastle.Crypto.dll
+C:\Users\Nof\Desktop\temp\check\check\bin\Debug\DevExpress.Data.v20.2.dll
+C:\Users\Nof\Desktop\temp\check\check\bin\Debug\itextsharp.dll
+C:\Users\Nof\Desktop\temp\check\check\bin\Debug\DevExpress.Data.v20.2.xml
+C:\Users\Nof\Desktop\temp\check\check\bin\Debug\itextsharp.xml
+C:\Users\Nof\Desktop\temp\check\check\obj\Debug\check.csprojAssemblyReference.cache
+C:\Users\Nof\Desktop\temp\check\check\obj\Debug\check.csproj.ResolveComReference.cache
+C:\Users\Nof\Desktop\temp\check\check\obj\Debug\check.AddWorker.resources
+C:\Users\Nof\Desktop\temp\check\check\obj\Debug\check.EditWorker.resources
+C:\Users\Nof\Desktop\temp\check\check\obj\Debug\check.Stats.resources
+C:\Users\Nof\Desktop\temp\check\check\obj\Debug\check.UpdateWorkers.resources
+C:\Users\Nof\Desktop\temp\check\check\obj\Debug\check.Login.resources
+C:\Users\Nof\Desktop\temp\check\check\obj\Debug\check.MainMenu.resources
+C:\Users\Nof\Desktop\temp\check\check\obj\Debug\check.ChangingPasswordForm.resources
+C:\Users\Nof\Desktop\temp\check\check\obj\Debug\check.credentialReplacementForm.resources
+C:\Users\Nof\Desktop\temp\check\check\obj\Debug\check.EmailList.resources
+C:\Users\Nof\Desktop\temp\check\check\obj\Debug\check.emailSetting.resources
+C:\Users\Nof\Desktop\temp\check\check\obj\Debug\check.MultiMail.resources
+C:\Users\Nof\Desktop\temp\check\check\obj\Debug\check.singleEmail.resources
+C:\Users\Nof\Desktop\temp\check\check\obj\Debug\check.smtpForm.resources
+C:\Users\Nof\Desktop\temp\check\check\obj\Debug\check.AddProducts.resources
+C:\Users\Nof\Desktop\temp\check\check\obj\Debug\check.AddColumn.resources
+C:\Users\Nof\Desktop\temp\check\check\obj\Debug\check.AddTable.resources
+C:\Users\Nof\Desktop\temp\check\check\obj\Debug\check.AddUnit.resources
+C:\Users\Nof\Desktop\temp\check\check\obj\Debug\check.EditRow.resources
+C:\Users\Nof\Desktop\temp\check\check\obj\Debug\check.FirstEntryForm.resources
+C:\Users\Nof\Desktop\temp\check\check\obj\Debug\check.SellProducts.resources
+C:\Users\Nof\Desktop\temp\check\check\obj\Debug\check.LogsTable.resources
+C:\Users\Nof\Desktop\temp\check\check\obj\Debug\check.AdminSettings.resources
+C:\Users\Nof\Desktop\temp\check\check\obj\Debug\check.SMTPSetup.resources
+C:\Users\Nof\Desktop\temp\check\check\obj\Debug\check.Form1.resources
+C:\Users\Nof\Desktop\temp\check\check\obj\Debug\check.Properties.Resources.resources
+C:\Users\Nof\Desktop\temp\check\check\obj\Debug\check.csproj.GenerateResource.cache
+C:\Users\Nof\Desktop\temp\check\check\obj\Debug\check.csproj.CoreCompileInputs.cache
+C:\Users\Nof\Desktop\temp\check\check\obj\Debug\check.csproj.CopyComplete
+C:\Users\Nof\Desktop\temp\check\check\obj\Debug\check.exe
+C:\Users\Nof\Desktop\temp\check\check\obj\Debug\check.pdb
+C:\Users\john\Desktop\פרויקט גמר חדש\CURRENT ONE IN USE\check\check\bin\Debug\check.exe.config
+C:\Users\john\Desktop\פרויקט גמר חדש\CURRENT ONE IN USE\check\check\bin\Debug\check.exe
+C:\Users\john\Desktop\פרויקט גמר חדש\CURRENT ONE IN USE\check\check\bin\Debug\check.pdb
+C:\Users\john\Desktop\פרויקט גמר חדש\CURRENT ONE IN USE\check\check\bin\Debug\BouncyCastle.Crypto.dll
+C:\Users\john\Desktop\פרויקט גמר חדש\CURRENT ONE IN USE\check\check\bin\Debug\DevExpress.Data.v20.2.dll
+C:\Users\john\Desktop\פרויקט גמר חדש\CURRENT ONE IN USE\check\check\bin\Debug\itextsharp.dll
+C:\Users\john\Desktop\פרויקט גמר חדש\CURRENT ONE IN USE\check\check\bin\Debug\DevExpress.Data.v20.2.xml
+C:\Users\john\Desktop\פרויקט גמר חדש\CURRENT ONE IN USE\check\check\bin\Debug\itextsharp.xml
+C:\Users\john\Desktop\פרויקט גמר חדש\CURRENT ONE IN USE\check\check\obj\Debug\check.csprojAssemblyReference.cache
+C:\Users\john\Desktop\פרויקט גמר חדש\CURRENT ONE IN USE\check\check\obj\Debug\check.csproj.ResolveComReference.cache
+C:\Users\john\Desktop\פרויקט גמר חדש\CURRENT ONE IN USE\check\check\obj\Debug\check.AddWorker.resources
+C:\Users\john\Desktop\פרויקט גמר חדש\CURRENT ONE IN USE\check\check\obj\Debug\check.EditWorker.resources
+C:\Users\john\Desktop\פרויקט גמר חדש\CURRENT ONE IN USE\check\check\obj\Debug\check.Stats.resources
+C:\Users\john\Desktop\פרויקט גמר חדש\CURRENT ONE IN USE\check\check\obj\Debug\check.UpdateWorkers.resources
+C:\Users\john\Desktop\פרויקט גמר חדש\CURRENT ONE IN USE\check\check\obj\Debug\check.Login.resources
+C:\Users\john\Desktop\פרויקט גמר חדש\CURRENT ONE IN USE\check\check\obj\Debug\check.MainMenu.resources
+C:\Users\john\Desktop\פרויקט גמר חדש\CURRENT ONE IN USE\check\check\obj\Debug\check.ChangingPasswordForm.resources
+C:\Users\john\Desktop\פרויקט גמר חדש\CURRENT ONE IN USE\check\check\obj\Debug\check.credentialReplacementForm.resources
+C:\Users\john\Desktop\פרויקט גמר חדש\CURRENT ONE IN USE\check\check\obj\Debug\check.EmailList.resources
+C:\Users\john\Desktop\פרויקט גמר חדש\CURRENT ONE IN USE\check\check\obj\Debug\check.emailSetting.resources
+C:\Users\john\Desktop\פרויקט גמר חדש\CURRENT ONE IN USE\check\check\obj\Debug\check.MultiMail.resources
+C:\Users\john\Desktop\פרויקט גמר חדש\CURRENT ONE IN USE\check\check\obj\Debug\check.singleEmail.resources
+C:\Users\john\Desktop\פרויקט גמר חדש\CURRENT ONE IN USE\check\check\obj\Debug\check.smtpForm.resources
+C:\Users\john\Desktop\פרויקט גמר חדש\CURRENT ONE IN USE\check\check\obj\Debug\check.AddProducts.resources
+C:\Users\john\Desktop\פרויקט גמר חדש\CURRENT ONE IN USE\check\check\obj\Debug\check.AddColumn.resources
+C:\Users\john\Desktop\פרויקט גמר חדש\CURRENT ONE IN USE\check\check\obj\Debug\check.AddTable.resources
+C:\Users\john\Desktop\פרויקט גמר חדש\CURRENT ONE IN USE\check\check\obj\Debug\check.AddUnit.resources
+C:\Users\john\Desktop\פרויקט גמר חדש\CURRENT ONE IN USE\check\check\obj\Debug\check.EditRow.resources
+C:\Users\john\Desktop\פרויקט גמר חדש\CURRENT ONE IN USE\check\check\obj\Debug\check.FirstEntryForm.resources
+C:\Users\john\Desktop\פרויקט גמר חדש\CURRENT ONE IN USE\check\check\obj\Debug\check.SellProducts.resources
+C:\Users\john\Desktop\פרויקט גמר חדש\CURRENT ONE IN USE\check\check\obj\Debug\check.LogsTable.resources
+C:\Users\john\Desktop\פרויקט גמר חדש\CURRENT ONE IN USE\check\check\obj\Debug\check.AdminSettings.resources
+C:\Users\john\Desktop\פרויקט גמר חדש\CURRENT ONE IN USE\check\check\obj\Debug\check.SMTPSetup.resources
+C:\Users\john\Desktop\פרויקט גמר חדש\CURRENT ONE IN USE\check\check\obj\Debug\check.Form1.resources
+C:\Users\john\Desktop\פרויקט גמר חדש\CURRENT ONE IN USE\check\check\obj\Debug\check.Properties.Resources.resources
+C:\Users\john\Desktop\פרויקט גמר חדש\CURRENT ONE IN USE\check\check\obj\Debug\check.csproj.GenerateResource.cache
+C:\Users\john\Desktop\פרויקט גמר חדש\CURRENT ONE IN USE\check\check\obj\Debug\check.csproj.CoreCompileInputs.cache
+C:\Users\john\Desktop\פרויקט גמר חדש\CURRENT ONE IN USE\check\check\obj\Debug\check.csproj.CopyComplete
+C:\Users\john\Desktop\פרויקט גמר חדש\CURRENT ONE IN USE\check\check\obj\Debug\check.exe
+C:\Users\john\Desktop\פרויקט גמר חדש\CURRENT ONE IN USE\check\check\obj\Debug\check.pdb
